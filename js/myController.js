@@ -1,0 +1,1 @@
+angular.module("watchApp").controller("myCtrl",["$scope",function(e){e.name="Joe Biden",e.type=-1,e.$watch("name",function(){e.type=e.type+1})}]);
